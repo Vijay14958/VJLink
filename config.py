@@ -13,7 +13,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "5804525901:AAEBbNOQEegVYW7DPqzJ0u4VyUnM
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5606411877")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "VJLinkShortner")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://VJlink:VJLink@cluster0.ucnckh4.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5606411877")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(Id Owned Id)
